@@ -27,8 +27,12 @@ article {
     padding: 40px;
 }
 
-.profile {
+.container {
+    display: flex;
+}
 
+.profile {
+    float: right;
 }
 
 .profile {
