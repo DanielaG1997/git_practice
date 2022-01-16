@@ -2,20 +2,43 @@ header {
     background-color: lightpink;
 }
 
+h1 {
+    float: left;
+  text-align: center;
+  padding-left: 30px;
+  text-decoration: none;
+} 
+
 .right {
+    overflow: hidden;
+}
+
+.menu {
     float: right;
 }
 
-.left {
-    float: left;
+li {
+    display: inline;
+    padding: 10px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+article {
+    background-color: lightskyblue;
+    padding: 40px;
+}
 
-  li {
-      display: inline;
-  }
+.profile {
+
+}
+
+.profile {
+   float: right;
+} 
+
+section {
+    background-color: lightslategray;
+}
+
+footer {
+    background-color: lightyellow;
+}
