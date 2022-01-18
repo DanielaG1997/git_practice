@@ -1,7 +1,7 @@
 header {
     background-color: lightpink;
-    display: flex;
-    justify-content: space-around;
+    max-width: 960px;
+    margin: auto;
 }
 
 /*.left {
@@ -29,17 +29,27 @@ li {
     background-color: lightskyblue;
     padding: 40px;
     justify-content: space-around;
-    width: 100%;
-}
-
-.imagen {
-
+    max-width: 960px;
+    margin: auto;
 }
 
 section {
     background-color: lightslategray;
+    display: flex;
+    justify-content: start;
+    max-width: 960px;
+    margin: auto;
+    padding-left: 200px;
+}
+
+.techs {
+    display: inline;
 }
 
 footer {
     background-color: lightyellow;
+    display: flex;
+    justify-content: space-around;
+    max-width: 960px;
+    margin: auto;
 }
