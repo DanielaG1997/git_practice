@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 header {
     background-color: lightpink;
     width: 960px;
@@ -32,13 +38,9 @@ li {
 section {
     background-color: lightslategray;
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
     width: 960px;
     margin: auto;
-}
-
-.techs {
-    display: inline;
 }
 
 footer {
